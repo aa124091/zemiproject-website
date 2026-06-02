@@ -1,1 +1,11 @@
 # zemiproject-website
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+  <h1>こんにちは！</h1>
+  <p>地球社会共生学部菊池ゼミの学生が運営するサイトです。</p>
+</body>
+</html>
