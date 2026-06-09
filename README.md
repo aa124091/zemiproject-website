@@ -1,3 +1,3 @@
 <body>
-<img src="signinpage.png" width="100%">
+<img src="signinpage.jpg" width="100%">
 </body>
