@@ -1,111 +1,34 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html>
 <head>
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>冒険スタート</title>
-
-
-<style>
-
-/* 余白を消す */
-body {
-  margin: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-
-/* ゲーム画面 */
-.game-screen {
-
-  position: relative;
-
-  width: 100vw;
-  height: 100vh;
-
-}
-
-
-/* 背景画像 */
-.game-screen img {
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-
-  display: block;
-
-}
-
-
-
-/* すすむ透明ボタン */
-
-.next-button {
-
-  position: absolute;
-
-
-  /* 矢印の位置 */
-  top: 65%;
-  left: 68%;
-
-
-  /* クリック範囲 */
-  width: 27%;
-  height: 12%;
-
-
-  /* 完全透明 */
-  background: transparent;
-
-
-  cursor: pointer;
-
-}
-
-
-
-/* 位置調整用（確認するときだけ使う）
-
-.next-button {
-  background: rgba(255,0,0,0.3);
-}
-
-*/
-
-
-</style>
-
-
+<title>MAP</title>
 </head>
 
+<body style="margin:0;">
 
+<div style="position:relative;">
 
-<body>
-
-
-<div class="game-screen">
-
-
-  <!-- マップ -->
-  <img src="mappage.png" alt="冒険スタート">
-
+  <!-- 画像 -->
+  <img src="mappage.png"
+       style="width:100%; display:block;">
 
   <!-- すすむボタン -->
-  <a href="stage1.html" class="next-button"></a>
-
+  <a href="selectpage.html"
+     style="
+     position:absolute;
+     top:82%;
+     left:63%;
+     width:25%;
+     height:10%;
+     background:red;
+     opacity:0.4;
+     display:block;
+     z-index:999;
+     ">
+  </a>
 
 </div>
 
-
-
 </body>
-
 </html>
