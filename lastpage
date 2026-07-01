@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MAP</title>
+</head>
+
+<body style="margin:0;">
+
+<div style="position:relative;">
+
+  <!-- 画像 -->
+  <img src="mappage.png"
+       style="width:100%; display:block;">
+
+</div>
+
+</body>
+</html>
